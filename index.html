@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subdomain Takeover - Monzo Bug Bounty</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; }
+        .alert { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="alert">🚨 Subdomain Takeover Confirmed</h1>
+        <h2>Domain: amplify-test-s101.monzo.com</h2>
+        <p><strong>Researcher:</strong> StealthByt</p>
+        <p><strong>Date:</strong> May 30, 2025</p>
+        <p><strong>Target:</strong> Monzo Bank Bug Bounty Program</p>
+        <hr>
+        <h3>Technical Details:</h3>
+        <ul>
+            <li>Orphaned CNAME: d7ll7s2y3gkm.cloudfront.net</li>
+            <li>CloudFront distribution deleted</li>
+            <li>DNS record not cleaned up</li>
+        </ul>
+        <p>This demonstrates successful takeover of orphaned CNAME record.</p>
+    </div>
+</body>
+</html>
